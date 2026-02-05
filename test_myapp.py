@@ -6,7 +6,7 @@ def test_home_route():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.data == b"Stephens application"
+    assert response.data == b"Joseph application"
 
 
 def test_multiply_function():
