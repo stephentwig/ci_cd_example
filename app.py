@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    welcome_text ="This is my application"  # Simple computation
+    welcome_text ="Stephens application"  # Simple computation
     return welcome_text
 
 
